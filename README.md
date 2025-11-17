@@ -1,90 +1,149 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Professional Portfolio Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+## ��� Project Purpose
+A modern, responsive portfolio website showcasing web development and data engineering skills, projects, and services. Built with semantic HTML5, CSS3, and vanilla JavaScript.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## ��� Project Structure
+```
+portfolio-website/
+├── index.html              # Home page
+├── about.html              # About page
+├── projects.html           # Projects showcase
+├── services.html           # Services offered
+├── contact.html            # Contact form
+├── css/
+│   ├── styles.css          # Main stylesheet
+│   ├── responsive.css      # Media queries
+│   └── animations.css      # Animation styles
+├── js/
+│   ├── main.js             # Global scripts
+│   ├── form-validation.js  # Contact form validation
+│   └── projects-filter.js  # Project filtering logic
+├── images/
+│   └── (project images)
+└── README.md
+```
+
+## ��� Features
+- **Responsive Design:** Mobile-first approach, works on all devices
+- **Interactive Navigation:** Smooth scrolling and mobile hamburger menu
+- **Form Validation:** Real-time contact form validation
+- **Project Filtering:** Dynamic project showcase with category filters
+- **Animations:** Scroll-triggered animations and smooth transitions
+- **Accessibility:** Semantic HTML, ARIA labels, keyboard navigation
+
+## ���️ Technologies Used
+- HTML5 (Semantic elements)
+- CSS3 (Flexbox, Grid, Custom Properties, Animations)
+- JavaScript (ES6+, DOM manipulation, Form validation)
+
+## ��� Pages Overview
+
+### Home (`index.html`)
+- Hero section with animated call-to-action
+- Brief introduction
+- Featured projects preview
+- Skills highlight
+- Quick links to other sections
+
+### About (`about.html`)
+- Personal story and background
+- Technical skills with progress bars
+- Experience timeline
+- Education history
+- Core values
+
+### Projects (`projects.html`)
+- Portfolio grid with hover effects
+- Category filtering (Web Apps, Websites, Design)
+- Project details with technologies used
+- Links to live demos and GitHub repos
+
+### Services (`services.html`)
+- Service packages with pricing
+- What's included in each package
+- Interactive FAQ accordion
+- Process timeline
+- Call-to-action
+
+### Contact (`contact.html`)
+- Contact form with validation
+- Social media links
+- Location information
+- Success/error message handling
+- Quick stats section
+
+## ��� Deployment
+
+### Live URL
+[Add your deployed site URL here]
+
+### Deployment Options
+This site can be deployed using:
+- **GitHub Pages:** Push to `gh-pages` branch
+- **Netlify:** Connect GitHub repo for continuous deployment
+- **Vercel:** Import project from GitHub
+
+### Deployment Steps (GitHub Pages)
+1. Push code to GitHub repository
+2. Go to Settings > Pages
+3. Select source branch (main or gh-pages)
+4. Save and wait for deployment
+5. Access site at: `https://Kimberly-ops177.github.io/portfolio-website`
+
+## ��� Local Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Kimberly-ops177/portfolio-website.git
+```
+
+2. Navigate to project folder:
+```bash
+cd portfolio-website
+```
+
+3. Open `index.html` in your browser or use a local server:
+```bash
+# Using Python 3
+python -m http.server 8000
+
+# Using Node.js http-server
+npx http-server
+```
+
+4. Visit `http://localhost:8000` in your browser
+
+## ✅ Best Practices Implemented
+- Semantic HTML5 elements
+- Mobile-first responsive design
+- Clean, modular, and commented code
+- Organized file structure
+- Optimized images
+- Cross-browser compatibility
+- Accessibility standards (WCAG)
+- SEO-friendly markup
+
+## ��� Customization
+To customize for your own use:
+1. Replace content in HTML files with your information
+2. Update color scheme in `css/styles.css` (CSS custom properties)
+3. Add your own project images to `/images`
+4. Modify services and pricing in `services.html`
+5. Update social media links in all pages
+
+## ��� License
+This project is open source and available under the MIT License.
+
+## ��� Author
+Kimberly Githinji
+- GitHub: [@Kimberly-ops177](https://github.com/Kimberly-ops177)
+- Email: kimoutlier1@gmail.com
+
+## ��� Acknowledgments
+- Icons: Font Awesome
+- Fonts: Google Fonts
+- Inspiration: Modern portfolio designs
 
 ---
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
-
----
-
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+**Last Updated:** November 2025

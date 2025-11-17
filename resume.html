@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimberly Githinji - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 50px;
+            background: white;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #6366f1;
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 36px;
+            color: #1f2937;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        
+        .title {
+            font-size: 18px;
+            color: #6366f1;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 14px;
+            color: #6b7280;
+        }
+        
+        .contact a {
+            color: #6b7280;
+            text-decoration: none;
+        }
+        
+        .contact a:hover {
+            color: #6366f1;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        h2 {
+            font-size: 22px;
+            color: #1f2937;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .summary {
+            color: #4b5563;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        
+        .skill-category {
+            margin-bottom: 10px;
+        }
+        
+        .skill-category strong {
+            color: #1f2937;
+            font-size: 15px;
+        }
+        
+        .skill-category span {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        
+        .experience-item,
+        .project-item {
+            margin-bottom: 20px;
+        }
+        
+        .experience-header,
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        
+        .job-title,
+        .project-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1f2937;
+        }
+        
+        .date {
+            font-size: 14px;
+            color: #6b7280;
+            font-style: italic;
+        }
+        
+        .company,
+        .project-tech {
+            font-size: 14px;
+            color: #6366f1;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .project-tech {
+            color: #10b981;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+        
+        li {
+            font-size: 14px;
+            color: #4b5563;
+            margin-bottom: 5px;
+        }
+        
+        .education-item {
+            margin-bottom: 15px;
+        }
+        
+        .degree {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1f2937;
+        }
+        
+        .institution {
+            font-size: 14px;
+            color: #6366f1;
+            font-weight: 600;
+        }
+        
+        @media print {
+            body {
+                padding: 20px;
+            }
+            
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kimberly Githinji</h1>
+        <div class="title">Full-Stack Developer & Data Engineer</div>
+        <div class="contact">
+            <span>��� kimberlywanjiku28@gmail.com</span>
+            <span>��� +254 796996889</span>
+            <span>��� Nairobi, Kenya</span>
+            <a href="https://github.com/Kimberly-ops177" target="_blank">��� GitHub</a>
+            <a href="https://www.linkedin.com/in/kimberly-githinji-8a3341386" target="_blank">��� LinkedIn</a>
+            <a href="https://your-portfolio.netlify.app" target="_blank">��� Portfolio</a>
+        </div>
+    </header>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p class="summary">
+            Results-driven Full-Stack Developer and Data Engineer with expertise in building scalable web applications 
+            and robust data pipelines. Proficient in the MERN stack, Python, and Apache Spark with hands-on experience 
+            in designing ETL workflows, optimizing database performance, and creating data-driven applications. 
+            Passionate about leveraging technology to solve complex problems and deliver measurable business value. 
+            Currently completing advanced training in full-stack development through Power Learn Project.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Frontend:</strong><br>
+                <span>HTML5, CSS3, JavaScript (ES6+), React.js, TypeScript, Responsive Design</span>
+            </div>
+            <div class="skill-category">
+                <strong>Backend:</strong><br>
+                <span>Node.js, Express.js, Python, FastAPI, RESTful APIs, GraphQL, WebSockets(Socket.io)</span>
+            </div>
+            <div class="skill-category">
+                <strong>Data Engineering:</strong><br>
+                <span>Python (Pandas, NumPy), Apache Spark, PySpark, ETL Pipelines, Apache Airflow</span>
+            </div>
+            <div class="skill-category">
+                <strong>Databases:</strong><br>
+                <span>MongoDB, PostgreSQL, MySQL, Redis, Firebase, Database Design, Query Optimization</span>
+            </div>
+            <div class="skill-category">
+                <strong>Cloud & DevOps:</strong><br>
+                <span>AWS (S3, Lambda, RDS, Redshift), Docker, Git/GitHub, CI/CD</span>
+            </div>
+            <div class="skill-category">
+                <strong>Data Tools:</strong><br>
+                <span>Tableau, Power BI, Jupyter Notebooks, Data Warehousing, Stream Processing</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Key Projects</h2>
+        
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-title">Real-Time Analytics Dashboard</div>
+                <div class="date">2024</div>
+            </div>
+            <div class="project-tech">React.js • Node.js • MongoDB • Chart.js • Socket.io</div>
+            <ul>
+                <li>Developed full-stack web application for real-time data visualization with interactive charts and metrics</li>
+                <li>Implemented WebSocket connections for live data updates, reducing refresh latency by 80%</li>
+                <li>Integrated MongoDB for efficient data storage and retrieval of time-series analytics</li>
+                <li>Deployed on Vercel with 99.9% uptime and optimized for mobile responsiveness</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-title">ETL Data Pipeline System</div>
+                <div class="date">2024</div>
+            </div>
+            <div class="project-tech">Python • Apache Spark • PostgreSQL • Apache Airflow • AWS S3</div>
+            <ul>
+                <li>Architected scalable ETL pipeline processing 500K+ records daily from multiple data sources</li>
+                <li>Utilized Apache Spark for distributed data processing, reducing processing time by 70%</li>
+                <li>Automated workflow orchestration using Apache Airflow with scheduled DAGs and error handling</li>
+                <li>Implemented data quality checks and validation ensuring 99.5% data accuracy</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-title">E-Commerce Platform with Analytics</div>
+                <div class="date">2024</div>
+            </div>
+            <div class="project-tech">MERN Stack • Stripe API • JWT Authentication • Redux</div>
+            <ul>
+                <li>Built comprehensive e-commerce application with product catalog, shopping cart, and secure checkout</li>
+                <li>Integrated Stripe payment processing with webhook handling for transaction confirmation</li>
+                <li>Implemented JWT-based authentication and role-based access control for admin dashboard</li>
+                <li>Created analytics module tracking user behavior, sales metrics, and inventory management</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-title">Multi-User Chat Application</div>
+                <div class="date">2024</div>
+            </div>
+            <div class="project-tech">React • Node.js • Socket.io • MongoDB • Express</div>
+            <ul>
+                <li>Developed real-time chat platform supporting multiple rooms with typing indicators and message reactions</li>
+                <li>Implemented user authentication, message persistence, and online status tracking</li>
+                <li>Optimized WebSocket connections handling 100+ concurrent users with minimal latency</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Professional Experience</h2>
+        
+        <div class="experience-item">
+            <div class="experience-header">
+                <div class="job-title">Freelance Full-Stack Developer</div>
+                <div class="date">2024 - Present</div>
+            </div>
+            <div class="company">Independent Contractor</div>
+            <ul>
+                <li>Delivered custom web solutions for clients across various industries including e-commerce and analytics</li>
+                <li>Collaborated with clients to gather requirements, design solutions, and implement full-stack applications</li>
+                <li>Provided ongoing maintenance, bug fixes, and feature enhancements for deployed applications</li>
+                <li>Maintained 100% client satisfaction rate with timely delivery and quality code</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div class="job-title">Data Analysis Projects</div>
+                <div class="date">2023 - 2024</div>
+            </div>
+            <div class="company">Academic & Personal Projects</div>
+            <ul>
+                <li>Conducted exploratory data analysis on CORD-19 dataset using Python (Pandas, Matplotlib, NumPy)</li>
+                <li>Built interactive Streamlit web applications for data visualization and insights presentation</li>
+                <li>Performed data cleaning, transformation, and statistical analysis on datasets with 100K+ records</li>
+                <li>Created automated reports and dashboards for data-driven decision making</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Education & Training</h2>
+        
+        <div class="education-item">
+            <div class="degree">Full-Stack Web Development (MERN Stack)</div>
+            <div class="institution">Power Learn Project</div>
+            <div class="date">2024 - Present</div>
+            <ul>
+                <li>Comprehensive training in MongoDB, Express.js, React.js, and Node.js</li>
+                <li>Hands-on projects including authentication systems, RESTful APIs, and database design</li>
+                <li>Focus on modern development practices, Git workflows, and deployment strategies</li>
+            </ul>
+        </div>
+
+        <div class="education-item">
+            <div class="degree">Self-Directed Learning - Data Engineering</div>
+            <div class="institution">Online Courses & Certifications</div>
+            <div class="date">2023 - Present</div>
+            <ul>
+                <li>Apache Spark and PySpark for distributed data processing</li>
+                <li>Data pipeline architecture and ETL best practices</li>
+                <li>Cloud computing with AWS services (S3, Lambda, Redshift, RDS)</li>
+                <li>Database optimization and data warehousing concepts</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Additional Information</h2>
+        <ul>
+            <li><strong>Languages:</strong> English (Fluent), Swahili (Native)</li>
+            <li><strong>Interests:</strong> Open-source contribution, Machine Learning, Cloud Architecture, Tech Communities</li>
+            <li><strong>Availability:</strong> Open to full-time opportunities and contract work</li>
+            <li><strong>Location:</strong> Based in Kenya, open to remote work globally</li>
+        </ul>
+    </div>
+
+    <div class="no-print" style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 2px solid #e5e7eb;">
+        <button onclick="window.print()" style="background: #6366f1; color: white; padding: 12px 30px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; font-weight: 600;">
+            ��� Download as PDF
+        </button>
+        <p style="margin-top: 15px; color: #6b7280; font-size: 14px;">
+            Click the button above and select "Save as PDF" in the print dialog
+        </p>
+    </div>
+</body>
+</html>

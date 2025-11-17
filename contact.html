@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch for web development projects and collaborations">
+    <title>Contact | Web Developer Portfolio</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="logo">
+                        <span class="logo-text">&lt;Dev/&gt;</span>
+                    </a>
+                    
+                    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                        <span class="hamburger"></span>
+                    </button>
+                    
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="projects.html" class="nav-link">Projects</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="contact.html" class="nav-link btn-contact active">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title animate-fadeInUp">Get In Touch</h1>
+            <p class="page-subtitle animate-fadeInUp">
+                Let's discuss your project and bring your ideas to life
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info animate-fadeInLeft">
+                    <h2 class="info-title">Let's Connect</h2>
+                    <p class="info-text">
+                        I'm always interested in hearing about new projects and 
+                        opportunities. Whether you have a question or just want to 
+                        say hi, feel free to reach out!
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-content">
+                                <h3 class="method-title">Email</h3>
+                                <a href="mailto:alex@example.com" class="method-link">
+                                    githinjikimberly503@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-content">
+                                <h3 class="method-title">Phone</h3>
+                                <a href="tel:+1234567890" class="method-link">
+                                    +254746925600
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-content">
+                                <h3 class="method-title">Location</h3>
+                                <p class="method-text">Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-connect">
+                        <h3 class="social-title">Connect on Social Media</h3>
+                        <div class="social-links-large">
+                            <a href="https://github.com/Kimberly-ops177" class="social-btn" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kimberly-githinji-8a3341386" class="social-btn" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://x.com/WanjikuKimberly" class="social-btn" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="https://dribbble.com/kimberly-wanjiku" class="social-btn" aria-label="Dribbble">
+                                <i class="fab fa-dribbble"></i>
+                                <span>Dribbble</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper animate-fadeInRight">
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name" class="form-label">
+                                Your name <span class="required">*</span>
+                            </label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                class="form-input"
+                                placeholder="John Doe"
+                                required
+                            >
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">
+                                Email Address <span class="required">*</span>
+                            </label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="form-input"
+                                placeholder="john@example.com"
+                                required
+                            >
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">
+                                Subject <span class="required">*</span>
+                            </label>
+                            <select id="subject" name="subject" class="form-input" required>
+                                <option value="">Select a subject</option>
+                                <option value="project">New Project Inquiry</option>
+                                <option value="quote">Request a Quote</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="support">Support</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">
+                                Your Message <span class="required">*</span>
+                            </label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                class="form-textarea"
+                                rows="6"
+                                placeholder="Tell me about your project..."
+                                required
+                            ></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block btn-submit">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading">
+                                <i class="fas fa-spinner fa-spin"></i> Sending...
+                            </span>
+                        </button>
+                        
+                        <!-- Success/Error Messages -->
+                        <div class="form-message success-message" id="successMessage">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Thank you! Your message has been sent successfully.</p>
+                        </div>
+                        
+                        <div class="form-message error-message-box" id="errorMessage">
+                            <i class="fas fa-exclamation-circle"></i>
+                            <p>Oops! Something went wrong. Please try again.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Clients & Colleagues Say</h2>
+                <p class="section-subtitle">Feedback from people I've worked with</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <!-- Testimonial 1: Data Engineering Project -->
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Kimberly developed an ETL pipeline that transformed our data processing workflow. 
+                        What used to take our team hours now completes in minutes. Her expertise in Python 
+                        and Apache Spark was evident throughout the project, and she delivered ahead of schedule."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">David Kimani</h4>
+                            <p class="author-position">Data Manager, Analytics Plus</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2: Full-Stack Development -->
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Working with Kimberly was exceptional. She built our e-commerce platform with a 
+                        clean, intuitive interface and robust backend. Her attention to detail and proactive 
+                        communication made the entire process smooth. Highly recommend!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Grace Mwangi</h4>
+                            <p class="author-position">Founder, ShopLocal Kenya</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3: React Application -->
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Kimberly's React dashboard application exceeded our expectations. The real-time 
+                        analytics features are powerful yet easy to use. She demonstrated strong problem-solving 
+                        skills and delivered production-ready code with comprehensive documentation."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">James Ochieng</h4>
+                            <p class="author-position">Product Manager, TechVision</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4: Collaboration & Learning -->
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "As a mentor, Kimberly showed incredible dedication to learning and growth. Her ability 
+                        to quickly grasp complex concepts in data engineering and apply them to real projects 
+                        was impressive. A true professional with a bright future ahead."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Dr. Sarah Njeri</h4>
+                            <p class="author-position">Senior Data Engineer, Cloud Systems</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 5: Database Design -->
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Kimberly optimized our database queries and redesigned our schema, resulting in 60% 
+                        faster load times. Her deep understanding of both SQL and NoSQL databases helped us 
+                        choose the right solution for our needs. Excellent work!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Peter Kariuki</h4>
+                            <p class="author-position">CTO, DataStream Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 6: Team Collaboration -->
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Collaborating with Kimberly on our full-stack project was a pleasure. She wrote clean, 
+                        well-documented code and was always willing to help teammates. Her positive attitude 
+                        and technical skills made her an invaluable team member."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Ann Wambui</h4>
+                            <p class="author-position">Lead Developer, Innovation Hub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">About</h3>
+                    <p class="footer-text">
+                        Passionate web developer dedicated to creating 
+                        beautiful and functional digital experiences.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Connect</h3>
+                    <div class="footer-social">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kimberly Githinji. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
