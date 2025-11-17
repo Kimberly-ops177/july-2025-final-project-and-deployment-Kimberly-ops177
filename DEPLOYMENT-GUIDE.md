@@ -2,6 +2,17 @@
 
 This guide will walk you through deploying your portfolio website to GitHub Pages, Netlify, or Vercel.
 
+## ðŸŽ‰ Current Deployment Status
+
+**âœ… LIVE ON VERCEL**
+- **Production URL:** https://july-2025-final-project-and-deploym-kimberlys-projects-b38013d9.vercel.app/
+- **Platform:** Vercel
+- **Auto-Deploy:** Enabled (deploys on push to `main` branch)
+- **SSL/HTTPS:** Enabled
+- **GitHub Repo:** https://github.com/Kimberly-ops177/july-2025-final-project-and-deployment-Kimberly-ops177
+
+---
+
 ## Prerequisites
 - Git installed on your computer
 - GitHub account
@@ -226,4 +237,4 @@ Value: YOUR_USERNAME.github.io
 
 ---
 
-Good luck with your deployment! íº€
+Good luck with your deployment! ï¿½ï¿½ï¿½

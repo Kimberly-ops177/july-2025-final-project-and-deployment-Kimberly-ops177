@@ -76,20 +76,22 @@ portfolio-website/
 ## ��� Deployment
 
 ### Live URL
-[Add your deployed site URL here]
+**Production:** https://july-2025-final-project-and-deploym-kimberlys-projects-b38013d9.vercel.app/
 
-### Deployment Options
-This site can be deployed using:
+### Deployed On
+This portfolio is deployed on **Vercel** with automatic deployment from the GitHub repository.
+
+### Deployment Status
+✅ Successfully deployed on Vercel
+- Auto-deploys on push to `main` branch
+- Custom domain can be configured in Vercel settings
+- SSL/HTTPS enabled by default
+
+### Alternative Deployment Options
+This site can also be deployed using:
 - **GitHub Pages:** Push to `gh-pages` branch
 - **Netlify:** Connect GitHub repo for continuous deployment
-- **Vercel:** Import project from GitHub
-
-### Deployment Steps (GitHub Pages)
-1. Push code to GitHub repository
-2. Go to Settings > Pages
-3. Select source branch (main or gh-pages)
-4. Save and wait for deployment
-5. Access site at: `https://Kimberly-ops177.github.io/portfolio-website`
+- **Other platforms:** Any static hosting service
 
 ## ��� Local Development
 
